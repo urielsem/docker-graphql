@@ -26,10 +26,10 @@ jobs:
         
     - name: Build Docker Image
       run: |
-        docker build -t sem20410/docker-graphql:0.0.2 .
+       docker build -t sem20410/docker-graphql:0.0.2 .
     - name: Push Docker Image
       run: | 
-         docker push sem20410/docker-graphql:0.0.2
+       docker push sem20410/docker-graphql:0.0.2
          
 #    - name: Build the Docker image
 #      run: docker build . --file Dockerfile --tag my-image-name:$(date +%s)
